@@ -14,7 +14,7 @@ mirror and the original commit history have been removed and will be restored on
 |---|---|
 | Language | Python 3.10 or newer (tested with 3.11) |
 | Dependencies | `numpy`, `scipy`, `torch` (`python3 -m pip install numpy scipy torch`; the CPU wheel from `https://download.pytorch.org/whl/cpu` is enough and a smaller download); TeX Live 2022+ with `pgfplots` to build the paper. The flight experiments also need Docker, `pyulog` and `mavsdk<4` (Section 4) |
-| Quick check | about 5 minutes on a laptop or server CPU, no download, no GPU |
+| Quick check | about 5 minutes on a server CPU, no download |
 | Aggregation, consensus and vector-certificate studies | about 12 minutes |
 | Learning study | headline seeds 0–4: about 1 hour on 2 cores; all extended runs: about 6 hours on 4 cores (Section 3) |
 | Hardware | any laptop or server CPU; every script is single-threaded, the learning scripts run several in parallel (`PAR`); a learning run peaks at about 1.2 GB of memory; no GPU is used |
